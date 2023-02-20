@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Labrada', serif;
+    font-size: 30px;
+}
+body{
+
+}
+#papas{
+    display: inline;
+    margin-left: 32%;
+}
+h1{
+    display: inline;
+    margin-left: 0;
+}
+.cabeza{
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 10px 25px;
+}
+.menu{
+    display: flex;   
+    gap: 20px;
+}
+a{
+    
+    color: black;
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mitad1{
+    display: inline;
+    justify-content: end;
+}
+.mitad2{
+   background-color: antiquewhite; 
+   justify-content: center;
+   width: 30%;
+   
+
+}
+.scroll{
+    margin: 5%;
+    width: 90%;
+    height: 400px;
+    overflow-x: scroll;
+}
+
+.button{
+    background-color: rgb(67, 89, 255);
+    height: 100%;
+    width: 20%;
+    border-bottom: 3px;
+    position: relative;
+    left: 75%;
+    margin-bottom: 15px;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(106, 106, 106);
+    align-items: center;
+}
+
+
+
+
